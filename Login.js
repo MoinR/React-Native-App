@@ -1,6 +1,6 @@
 import React from 'react';
 import { TextInput, View, Text, Image, Button } from 'react-native';
-// import  { Button } from 'react-native-elements'; 
+import {styles } from './styles'; 
 
 export default class LoginScreen extends React.Component {
     state = {
@@ -63,43 +63,5 @@ export default class LoginScreen extends React.Component {
             </View>
         )
     }
-
-}
-const styles = {
-    myText: {
-        fontSize: 35,
-        marginBottom: 10,
-        textAlign: 'center',
-    },
-    tinyLogo: {
-        marginBottom: 10,
-        width: 120,
-        height: 120,
-    },
-
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
-    inputBtn: {
-        borderWidth: 1,
-        marginTop: 10,
-        marginBottom: 10,
-        marginLeft: 20,
-        marginRight: 20,
-        minWidth: '90%',
-    },
-    loginButtonContainer: {
-        marginLeft: 20,
-        marginRight: 20,
-        marginTop: 10,
-        minWidth: '90%'
-    },
-    loginBtn: {
-        borderRadius: 10,
-    }
-
-
 
 }
