@@ -52,9 +52,9 @@ export default class LoginScreen extends React.Component {
         return (
             <View style={styles.container}>
 
-                <Text> {this.state.loginMsg} </Text>
                 <Image style={styles.tinyLogo} source={{ uri: 'https://reactnative.dev/img/tiny_logo.png' }} />
                 <Text style={styles.myText}> Login  </Text>
+                <Text> {this.state.loginMsg} </Text>
                 <TextInput placeholder="Username" value={this.state.username} style={styles.inputBtn} onChangeText={this.getUsername} />
                 <TextInput placeholder="Password" value={this.state.password} style={styles.inputBtn} secureTextEntry onChangeText={this.getPassword} />
                 <View style={styles.loginButtonContainer}>
