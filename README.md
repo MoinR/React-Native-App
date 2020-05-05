@@ -14,8 +14,7 @@ $ cd My-React-APP
 $ npm i 
 $ npx react-native-start #to start react-native server 
 $ npx react-native run-android  #to start react-native app in android 
-# to start app in ios
-$ npx react-native run-ios  #to start react-native app in android 
+$ npx react-native run-ios  #to start react-native app in ios
 ```
 
 # React-Native-App
