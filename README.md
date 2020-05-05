@@ -17,4 +17,3 @@ $ npx react-native run-android  #to start react-native app in android
 $ npx react-native run-ios  #to start react-native app in ios
 ```
 
-# React-Native-App
